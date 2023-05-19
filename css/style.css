@@ -1,0 +1,358 @@
+body {
+    font-size: 15px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    color: #000;
+    overflow-x: hidden;
+}
+
+*,
+p {
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 400;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    color: #000;
+}
+
+a {
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    color: #000;
+    font-weight: 400;
+    transition: all 0.2s;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:focus {
+    outline: none;
+    text-decoration: none;
+}
+
+ul,
+li {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.logo {
+    padding: 60px 0;
+}
+
+/*  ================================
+        header area start
+    ================================ */
+.header-area {
+    border-bottom: 1px solid #D6D6D6;
+}
+
+/*======================== Menu Design ==================*/
+.menu-bg-color {
+    overflow: hidden;
+}
+
+.menu-area {
+    padding: 30px 0;
+}
+
+#menu-switcher,
+.navbar-header > label,
+.switch {
+    display: none;
+}
+
+#navbar ul {
+    text-align: right;
+    margin: 58px 0 0;
+}
+
+#navbar ul li {
+    display: inline-block;
+    list-style: outside none none;
+}
+
+#navbar ul li a {
+    font-size: 16px;
+    color: #969696;
+    line-height: 25px;
+    display: inline-block;
+    padding: 10px 0;
+    margin: 0 15px;
+    text-transform: capitalize;
+    transition: 0.5s;
+    border-radius: 5px;
+    position: relative;
+}
+
+#navbar ul li a i.fa {
+    margin-right: 5px;
+}
+
+#navbar ul li a:hover {
+    color: #000;
+}
+
+/* menu part end */
+
+/*  ================================
+        header area end
+    ================================ */
+
+/*  ================================
+        product area start
+    ================================ */
+.pro-title h3 {
+    font-weight: 700;
+    font-size: 22px;
+    margin-bottom: 30px;
+    color: #656565;
+    text-align: center;
+}
+
+.product-area {
+    margin: 30px 0 0;
+}
+
+.product-wraper {
+    overflow: hidden;
+    padding: 40px 20px;
+}
+
+.product-dec h4 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    color: #656565;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.product-dec ul {
+    margin-bottom: 20px;
+}
+
+.pro-content ul {
+    margin-bottom: 15px;
+}
+
+.product-dec ul li,
+.pro-content ul li {
+    padding: 5px 0;
+}
+
+/*  ================================
+        product area end
+    ================================ */
+
+.box-area {
+    background-color: #F1F1F1;
+    padding: 30px 30px 0;
+}
+
+.pb {
+    padding-bottom: 30px;
+}
+
+.box-area h1 {
+    color: #000;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.box-content {
+    overflow: hidden;
+}
+
+
+.price{
+    font-weight: 400 !important;
+}
+/*  ================================
+        responsive area start
+    ================================ */
+/***** medium Layout *****/
+
+@media (min-width: 992px) and (max-width: 1200px) {}
+
+/***** Tablet Layout *****/
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+    .logo {
+        padding: 50px 0 20px;
+    }
+
+    .logo img {
+        width: 200px;
+    }
+
+    .product-dec {
+        margin-top: 30px;
+    }
+
+    .navbar ul li a {
+        margin-right: 7px;
+    }
+
+    #navbar ul {
+        text-align: center;
+    }
+
+    #navbar ul {
+        margin-top: 0;
+    }
+
+    .pro-heading {
+        font-size: 20px;
+    }
+
+    .dec-wraper h3 {
+        font-size: 17px;
+    }
+
+    .dec-wraper p {
+        margin: 0 0 15px;
+        font-size: 13px;
+    }
+
+    .dec-wraper ul li {
+        font-size: 13px;
+    }
+}
+
+/***** Mobile Layout *****/
+
+@media only screen and (max-width: 767px) {
+
+    .logo img {
+        width: 200px;
+    }
+
+    .pro-title {
+        padding: 15px 0;
+    }
+
+    .arrows,
+    .support-box {
+        display: none;
+    }
+
+    .rt-container {
+        width: auto;
+    }
+
+    .logo {
+        padding: 30px 0 20px;
+    }
+
+    #navbar ul {
+        text-align: center;
+        margin: 0;
+    }
+
+    #navbar ul li {
+        display: block;
+        list-style: outside none none;
+    }
+
+    .pro-title-area h3 {
+        font-size: 18px;
+        margin-top: 20px;
+    }
+
+    .csslider ul li img {
+        width: 100%;
+        height: auto;
+    }
+
+    .box-area h1 {
+        font-size: 16px;
+    }
+
+    p {
+        font-size: 13px;
+    }
+
+    .product-dec {
+        margin-top: 30px;
+    }
+
+    .header-area {
+        padding: 0 0 20px;
+    }
+
+    .logo {
+        text-align: center;
+    }
+
+    .product-wraper {
+        padding: 15px 0;
+    }
+
+    .csslider > .navigation label {
+        width: 50px;
+        height: 50px;
+    }
+
+    .pn {
+        padding: 0;
+    }
+
+    .dec-wraper {
+        padding: 15px 10px;
+    }
+
+    .dec-wraper h3 {
+        font-size: 16px;
+    }
+
+    .dec-wraper p {
+        margin: 0 0 15px;
+        font-size: 14px;
+    }
+
+    .dec-wraper ul li {
+        font-size: 13px;
+    }
+
+    .product-dec h3 {
+        font-size: 18px;
+    }
+
+    .product-dec h4 {
+        font-size: 16px;
+    }
+
+    .product-area {
+        margin: 20px 0 0;
+    }
+
+}
+
+/***** Wide Mobile Layout *****/
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {}
+
+/*  ================================
+        responsive area end
+    ================================ */
